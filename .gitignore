@@ -1,5 +1,30 @@
-myvenv
-env
-venv
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Database
+db.sqlite3
+
+# Logs
+*.log
+
+# Django
+staticfiles/
+media/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
